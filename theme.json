@@ -1,0 +1,26 @@
+{
+  "id": "my-zen-theme",
+  "homepage": "https://github.com/Bilal1545/My-Zen-Theme",
+  "author": "Bila1545",
+  "name": "My Zen Theme",
+  "description": "My transparent zen theme",
+  "version": "0.1.0",
+  "createdAt": "2026-04-7",
+  "updatedAt": "2026-04-7",
+  "readme": "https://github.com/Bilal1545/My-Zen-Theme/blob/main/README.md",
+  "image": "",
+  "style": {
+    "chrome": "main.css"
+  },
+  "scripts": {
+    "vars.uc.js": {
+      "name": "Variables",
+      "description": "Variables for transparent",
+      "include": ["chrome://browser/content/browser.xhtml"]
+    }
+  },
+  "tags": [
+    "Javascript"
+  ],
+  "fork": ["zen"]
+}
