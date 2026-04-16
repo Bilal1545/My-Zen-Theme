@@ -1,0 +1,5 @@
+.browserStack {
+    & > browser {
+        background: transparent !important;
+    }
+}

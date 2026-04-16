@@ -20,7 +20,8 @@
     }
   },
   "tags": [
-    "Javascript"
+    "Javascript",
+    "CSS"
   ],
   "fork": ["zen"]
 }
