@@ -2,32 +2,28 @@
   .tab-background {
     border-radius: 13px !important;
     position: relative !important;
-    box-shadow: 0 0 3px transparent !important;
+    box-shadow: none !important;
+    color: white !important;
     transition:
-      background-color 0.3s ease,
-      box-shadow 0.3s ease !important;
+      background-color 0.3s ease
   }
   &:is([pinned], :not([pinned])):hover .tab-background {
     background-color: light-dark(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2)) !important;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.55) !important;
   }
 
   /* ----- Selected state ----- */
   &:is([pinned], :not([pinned])):is([selected="true"], [visuallyselected="true"]) .tab-background {
     background-color: light-dark(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.4))  !important;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.55) !important;
   }
 }
 
 .zen-essentials-container .tabbrowser-tab {
   .tab-background {
     background-color: light-dark(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2)) !important;
-    box-shadow: 0 0px 3px transparent !important;
     border-radius: 14px !important;
   }
   &:hover .tab-background {
     background-color: light-dark(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.4)) !important;
-    box-shadow: 0 0px 3px transparent !important;
   }
   &[selected],
   &[visuallyselected] {
@@ -38,7 +34,6 @@
     }
     > .tab-stack > .tab-background {
       background-color: light-dark(rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.4)) !important;
-      box-shadow: 0 0 3px rgba(0, 0, 0, 0.55) !important;
 
       &::before {
         border-radius: 14px !important;
